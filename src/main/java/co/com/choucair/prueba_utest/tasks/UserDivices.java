@@ -46,7 +46,7 @@ public class UserDivices implements Task {
                 Hit.the(Keys.ENTER).into(MOVIL_DEVICE),
                 Click.on(CONTAINER_MODEL_DEVICE),
                 Enter.theValue(data.get(0).getModelDevice()).into(MODEL_DEVICE),
-                Hit.the(Keys.ARROW_DOWN).into(MODEL_DEVICE),
+                //Hit.the(Keys.ARROW_DOWN).into(MODEL_DEVICE),
                 Hit.the(Keys.ENTER).into(MODEL_DEVICE),
                 Click.on(CONTAINER_OS),
                 Enter.theValue(data.get(0).getOs()).into(OS),
