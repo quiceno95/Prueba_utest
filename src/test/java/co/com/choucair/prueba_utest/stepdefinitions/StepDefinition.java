@@ -1,4 +1,4 @@
-package co.com.choucair.prueba_utest.stepdefinition.RegistroUsuario;
+package co.com.choucair.prueba_utest.stepdefinitions;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
