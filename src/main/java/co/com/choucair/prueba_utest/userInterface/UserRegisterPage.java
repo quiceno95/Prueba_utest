@@ -4,7 +4,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class UserRegisterPague extends PageObject {
+public class UserRegisterPage extends PageObject {
 
     public static final Target PASS = Target.the("Field of password")
             .located(By.id("password"));
